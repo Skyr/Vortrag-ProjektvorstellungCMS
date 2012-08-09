@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+<!--
+  UUlm Style
+
+  Author: Benjamin Erb
+
+  URL: https://github.com/berb/html5slides-uulm
+-->
+<!--
+  CCCS Style
+
+  Author: Stefan Schlott
+
+  URL: https://github.com/Skyr/html5slides-cccs
+-->
+
+<html>
+
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <link href="lib/styles.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="lib/cccs/cccs.css" media="screen" rel="stylesheet" type="text/css" />
+	<meta charset='utf-8' />
+	<script src='lib/slides.js'></script>
+	<link href="lib/animate/animate.css" media="screen" rel="stylesheet" type="text/css" />
+  <script type="text/javascript">
+    function animate(element, params) {
+      var animstyle = params;
+      var p = params.split(' ');
+      if (p.length>1) {
+        element = p[1];
+        animstyle = p[0];
+      }
+      $(element).removeClass("animated flash shake bounce tada swing wobble pulse flip flipInX flipOutX flipInY flipOutY fadeIn fadeInUp fadeInDown fadeInLeft fadeInRight fadeInUpBig fadeInDownBig fadeInLeftBig fadeInRightBig fadeOut fadeOutUp fadeOutDown fadeOutLeft fadeOutRight fadeOutUpBig fadeOutDownBig fadeOutLeftBig fadeOutRightBig bounceIn bounceInUp bounceInDown bounceInLeft bounceInRight bounceOut bounceOutUp bounceOutDown bounceOutLeft bounceOutRight rotateIn rotateInUpLeft rotateInDownLeft rotateInUpRight rotateInDownRight rotateOut rotateOutUpLeft rotateOutDownLeft rotateOutUpRight rotateOutDownRight hinge rollIn rollOut");
+      $(element).addClass("animated "+animstyle);
+    }
+  </script>
+  <style type="text/css">
+    .slides.template-cccs-in section > article.title-slide #title {
+      left: 33%;
+      top: 72%;
+    }
+    .slides.template-cccs-in section > article.title-slide #author {
+      bottom: 3%;
+    }
+    .slides.template-cccs-in section > article.title-slide #subtitle {
+      left: 33%;
+    }
+    .slides section > article > ul {
+      margin-top: 0.5em;
+    }
+    .centerfirst td:first-child {
+      text-align: center;
+    }
+  </style>
+	<title>Chaos macht Schule</title>
+</head>
+
+<body style='display: none'>
+
+	<div class='slides layout-normal template-cccs-in'>
+		<section>
+			<article class='title-slide'>
+				<h1 id="title">Chaos macht Schule</h1>
+				<h2 id="author">
+          Stefan Schlott
+				</h2>
+				<h2 id="subtitle">
+					Das Kinder- und Jugendprojekt beim CCC
+				</h2>
+				<p>
+					<img id="title-header" src='assets/images/header.jpg'/>
+					<img id="cccs-logo" src='lib/cccs/logo.png'/>
+				</p>
+			</article>
+<!--
+			<article>
+				<h3>Contents</h3>
+				<nav class="toc" />
+			</article>
+-->
+		</section>
+
+		<section>
+			<header>Chaos macht Schule</header>
+
+			<article>
+        <h3>„Könnt ihr uns mal besuchen?“</h3>
+        <p>Klassiker: Lehrer möchten ein (technisches) Thema behandeln, fühlen sich darin aber nicht ausreichend souverän</p>
+        <p>Respekt: Die „Hacker”, die alles können</p>
+        <p>Nicht-Lehrer: Anderer Zugang</p>
+        <p>Techniker: Fundierte Kenntnisse</p>
+			</article>
+
+			<article>
+        <h3>Projekt „Chaos macht Schule“</h3>
+        <p>Bundesweite Gruppe innerhalb des CCC</p>
+        <p>Koordination von Anfragen</p>
+        <p>Austausch von Erfahrungen und Materialien</p>
+        <p>Gemeinsame Ziele</p>
+			</article>
+
+			<article>
+        <h3>Veranstaltungen mit Jugendlichen</h3>
+        <p>Besuch in Schulen, Jugendclubs, etc.</p>
+        <p>Meist „Zeigefingerthemen“ wie Facebook, Sicherheit, etc.</p>
+        <p>Auch Basteln, Programmierkurse, ...</p>
+			</article>
+
+			<article>
+        <h3>Material für Multiplikatoren</h3>
+        <p>Besuch bei Eltern, Lehrern, Schulämter</p>
+        <p>Nerds briefen Nerds</p>
+        <p>Mannheim: Medienscouts</p>
+        <p>Vorbereitung Lehrmaterialien und Unterrichtsstunden</p>
+			</article>
+
+      <article class="fill">
+        <img src="assets/images/cms_tafel.svg" style="opacity:0.35;" width="100%" />
+        <h3>Interesse? Mach' mit!</h3>
+        <div style="position: absolute; top: 75%; background-color: rgba(230,230,230,0.8); padding: 20px">
+          <p>Infos auf der Webseite <a href="http://ccc.de/schule/">http://ccc.de/schule/</a></p>
+          <p>Mailingliste schule(ät)lists.ccc.de</p>
+        </div>
+      </article>
+
+		</section>
+
+	</div>
+
+</body>
+</html>
